@@ -68,3 +68,69 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+dev@LAB12-PC MINGW64 ~
+$ cd desktop
+
+dev@LAB12-PC MINGW64 ~/desktop
+$ cd cci-estudo
+
+dev@LAB12-PC MINGW64 ~/desktop/cci-estudo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   package.json
+        modified:   src/App.js
+
+
+dev@LAB12-PC MINGW64 ~/desktop/cci-estudo (master)
+$ git commit -m "Iniciando Projeto"
+[master b1cb347] Iniciando Projeto
+ Committer: dev <dev@grupocci.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 8 deletions(-)
+
+dev@LAB12-PC MINGW64 ~/desktop/cci-estudo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+dev@LAB12-PC MINGW64 ~/desktop/cci-estudo (master)
+$ git remote
+origin
+
+dev@LAB12-PC MINGW64 ~/desktop/cci-estudo (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+dev@LAB12-PC MINGW64 ~/desktop/cci-estudo (master)
+$ git push -u origin master
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (27/27), 301.45 KiB | 6.70 MiB/s, done.
+Total 27 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/AryzeD/cci-estudo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
